@@ -1,0 +1,24 @@
+# Default ritual length when /altar create is used without a time (mm:ss)
+default-duration: "24:20"
+
+# After a player claims the reward, start the ritual again automatically
+repeat: true
+
+# Blocks used when building an altar
+blocks:
+  floor: DEEPSLATE_TILES
+  pillar: CHISELED_DEEPSLATE
+  pillar-top: SOUL_LANTERN
+  center: BLUE_ICE
+
+# Clear everything in the 7x7 area above the floor when building
+clear-above: true
+
+# Protect altar blocks from breaking and explosions (admins with ritualaltar.admin can still break them)
+protect-blocks: true
+
+# Strike a visual-only lightning bolt when a ritual finishes
+lightning-effect: true
+
+# Tell every player within this many blocks when a ritual finishes (0 = nobody)
+announce-radius: 64

@@ -1,0 +1,19 @@
+name: RitualAltar
+version: '${project.version}'
+main: dev.ritualaltar.RitualAltarPlugin
+api-version: '1.21'
+description: Ritual altars with a floating item, a hologram and a live countdown.
+author: you
+commands:
+  altar:
+    description: Manage ritual altars
+    usage: /altar <create|remove|list|start|time|item|reload>
+    aliases: [ritualaltar, ra]
+    permission: ritualaltar.admin
+permissions:
+  ritualaltar.admin:
+    description: Create and manage altars
+    default: op
+  ritualaltar.claim:
+    description: Claim the reward of a finished ritual
+    default: true
